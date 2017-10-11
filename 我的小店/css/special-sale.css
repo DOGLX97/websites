@@ -1,0 +1,34 @@
+#header{
+    height: 300px;
+}
+#main-header>a{
+    color: white;
+}
+#header #start{
+    background-color: #FF00ff;
+}
+#header #special-sale{
+    background: #3b3c3c;
+}
+#brand{
+    margin-top: 50px;
+    float: left;/*父元素浮动，添加内容时，高度会随其增长，比写死高度更灵活*/
+}
+#brand h3{
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+#brand a{
+    width: 116px;
+    height: 99px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+#handpick>.wrapper>h3{
+    font-size: xx-large;
+}
+#handpick{
+    height:1350px;
+}
+

@@ -1,0 +1,27 @@
+#header{
+    height: 300px;
+}
+#header #start{
+    background: #ff00ff;
+}
+#header .bg{
+    background: #3b3c3c;
+}
+#hanjiaren h2{
+    color: black;
+    font-size: 35px;
+    margin: 35px 0;
+}
+#hanjiaren h3{
+    font-size: 26px;
+}
+#hanjiaren p{
+    font-size: 15px;
+    color: #525252;
+    margin: 30px 0;
+    width: 975px;
+}
+#hanjiaren img{
+    width: 975px;
+    height: 630px;
+}

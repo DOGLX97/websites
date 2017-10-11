@@ -1,0 +1,85 @@
+#country{
+    height: 800px;
+}
+#country .title{
+    height: 50px;
+    text-align: center;
+    margin: 40px 0;
+}
+#country .title span{
+    width: 100px;
+    display: inline-block;
+}
+#country .title span a{
+    color: black;
+}
+#country .title span:hover{
+    border: 1px solid #6aa84f;
+    background: #6aa84f;
+    color: white;
+    border-radius: 8px;
+}
+#country ul li img{
+    border: 5px solid #cccccc;
+}
+#country ul a{
+    width: 320px;
+    text-align: center;
+    color: black;
+    display: block;
+    float: left;
+    margin-right:40px;
+}
+#country ul p{
+    margin: 10px 0;
+}
+/*country*/
+
+/*contact*/
+#contact{
+
+}
+#left{
+    width: 600px;
+    float: left;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+#left h3{
+    margin: 80px 0 40px 0;
+}
+#left form{
+    height: 280px;
+    border: 2px dashed #F6B26B;
+    line-height: 28px;
+}
+#left .dif input{
+    width: 66px;
+    height: 20px;
+}
+#left button{
+    width: 60px;
+    height: 32px;
+    margin-top: 10px;
+}
+#right{
+    width: 400px;
+    float: left;
+    height: 500px;
+    margin-left: 100px;
+}
+#right ul{
+    width: 400px;
+    margin-top:150px;
+}
+#right li{
+    background: url("../img/home-bg1.png") no-repeat left;
+    border-bottom: 1px dotted #666666;
+    margin: 30px 0;
+}
+#right li span{
+    margin-left: 20px;
+}

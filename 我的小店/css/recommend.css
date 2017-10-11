@@ -1,0 +1,51 @@
+#header{
+    height: 300px;
+}
+#header #start{
+    background:#ff00ff;
+}
+#header .bg{
+    background: #3b3c3c;
+}
+#choose .wrapper h2{
+    font-size: 45px;
+    color: #525252;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#choose .recommend-info a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+#choose .recommend-info a:hover{
+    color: #ff00ff;
+}
+#choose .recommend-info img{
+    width: 975px;
+    height: 502px;
+}
+#choose .recommend-info p{
+    width: 975px;
+    height: 75px;
+    font-size: 15px;
+    color: #525252;
+}
+#choose .btn a {
+    display: block;
+    border: 1px solid #ff00ff;
+    width: 80px;
+    height: 40px;
+    color: white;
+    background: #ff00ff;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+#choose .btn a:hover{
+    background: #ff00ff;
+    color: white;
+}

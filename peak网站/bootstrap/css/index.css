@@ -1,0 +1,115 @@
+button{
+    outline: none;
+}
+.title{
+    color: #fff;
+}
+.over{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.row{
+    margin: 0;
+}
+.container-style{
+    width: 1280px;
+    height: 585px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#container-up{
+    padding: 100px 0;
+    background-image:url("../img/overlay.png"),url("../img/firecracker.jpg");
+}
+#container-up h1{
+    font-size: 0.75rem;
+    font-weight: 800;
+}
+#btn-up{
+    background: #663399;
+    border-radius: 50px;
+    font-size: 0.3rem;
+}
+.arrows{
+    width: 43px;
+    height: 28px;
+    margin: 200px auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-center.title{
+    color: #1c122c;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#container-center{
+    background-image: url("../img/overlay.png"),url("../img/violine.jpg");
+}
+.container-big{
+    /*background: url("../img/overlay.png") no-repeat center;*/
+}
+#container-down{
+    background: #fff;
+}
+#container-down img:first-child{
+    width: 104px;
+    margin-top: 30px;
+}
+#container-down .inp{
+    margin-top:100px;
+    margin-bottom: 20px;
+}
+#container-down input,#container-down button{
+    -webkit-box-shadow: 5px 5px 5px 5px #73a4cd;
+    -moz-box-shadow: 5px 5px 5px 5px #73a4cd;
+    box-shadow: 5px 5px 5px 5px #73a4cd;
+    outline: none;
+    border: 0;
+}
+#container-down button{
+    background: #663399;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:  30px;
+    border-top-left-radius:0;
+    border-top-right-radius:  30px;
+}
+#container-down input{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0;
+}
+#container-down p{
+    color: #73a4cd;
+}
+@media (max-width: 1280px) {
+    #container-up,#container-center,#container-down{
+        width: 100%;
+        height: 667px;
+        background-position: center;
+    }
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 767px) {
+    #container-up h1,#container-down h1{
+        font-size: 24px;
+    }
+    #container-up p,#container-down p{
+        font-size: 16px;
+    }
+    .text-center.title{
+        padding-bottom: 10px;
+    }
+    #container-down input,#container-down button{
+        border-radius: 30px;
+        margin: 20px 0;
+    }
+    .arrows{
+        margin: 150px auto;
+    }
+}
+

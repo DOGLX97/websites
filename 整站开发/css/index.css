@@ -1,0 +1,106 @@
+/***********banner start**********/
+#banner {
+    width: 1280px;
+    height: 460px;
+    margin: 0 auto;
+    position: relative;
+}
+/***********banner end**********/
+
+/***********news start**********/
+#news{
+    height: 492px;
+    /*background: #cccccc;*/
+}
+#news .news-content{
+    width: 333px;
+    height: 492px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+#news h1{
+    margin-top: 86px;
+}
+.font-style{
+    font: 25px "[PTSans Regular]" ;
+    color: #9c9c9c;
+}
+#news .news-content div{
+    margin: 33px 0;
+}
+#news p{
+    color: #9c9da3;
+    font-size: 15px;
+}
+#news a{
+    display: block;
+    color: #00aeff;
+    font-size: 15px;
+    margin-top: 36px;
+}
+/***********news end************/
+
+/*********works start**********/
+#works{
+    width: 1280px;
+    height: 500px;
+    background: #e2e7ed;
+    margin: 0 auto;
+}
+#works h1{
+    margin-top: 32px;
+}
+#works-content{
+    margin-top: 20px;
+}
+#works-content .works-img{
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+/*********works end************/
+
+/*********clients start*********/
+#clients{
+    height: 154px;
+}
+#clients h1{
+    margin-top: 30px;
+}
+#clients-content{
+    width: 1002px;
+    height: 101px;
+    background: url("../img/brand.jpg") no-repeat;
+    position: relative;
+}
+#clients .clients-left{
+    left: 0;
+    background: url("../img/arrow%20left.png") no-repeat;
+}
+#clients .clients-right{
+    right: 0;
+    background: url("../img/arrow%20right.png") no-repeat;
+}
+.arrows{
+    width: 24px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -20px);
+    -moz-transform: translate(0, -20px);
+    -ms-transform: translate(0, -20px);
+    -o-transform: translate(0, -20px);
+    transform: translate(0, -20px);
+}
+/*********clients end*********/
+
+
+
+
+
+
+
+
+
+

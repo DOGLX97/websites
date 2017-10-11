@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+li{
+    list-style: none;
+}
+.wrapper{
+    width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*header*/
+#header #firstbox{
+    height: 80px;
+}
+#header #fir-img{
+    width: 354px;
+    height: 55px;
+    display: inline-block;
+}
+#header #headline a{
+    display: inline-block;
+    width: 90px;
+    height: 32px;
+    margin: 11.5px 0;
+    text-align: center;
+    line-height: 32px;
+    color: black;
+    font-weight: 600;
+}
+#header #headline{
+    float: right;
+}
+.size{
+    margin: 22.5px 0;
+}
+#sec-img{
+    background: url("../img/banner01_h5vf.jpg") no-repeat center;
+    height: 440px;
+}
+/*header*/
+
+/*footer*/
+#footer{
+    background: #414B4A;
+    height: 180px;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+    width: 100%;
+}
+#footer .matter{
+    margin-top: 50px;
+    /*font-size: 20px;*/
+}
+#footer a{
+    color: white;
+    font-size: 25px;
+}
+#footer p{
+    margin: 10px 0;
+    /*font-size: 20px;*/
+}
+
+
+
+
+

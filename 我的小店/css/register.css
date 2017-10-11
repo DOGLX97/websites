@@ -1,0 +1,74 @@
+#nav #start{
+    background: #ff00ff;
+}
+#register{
+    height: 550px;
+}
+#register-info{
+    width: 570px;
+    height: 410px;
+}
+#register h2{
+    color: #3b3c3c;
+    margin: 30px 0;
+    font-size: 40px;
+}
+#register-pro span{
+    color: #999;
+    font-size: 14px;
+}
+#register-info a{
+    color: black;
+}
+#register-pro{
+    margin: 20px 0;
+}
+#register-info form{
+    width: 570px;
+    height: 370px;
+}
+#register-info .info{
+    width: 550px;
+    height: 52px;
+    line-height: 52px;
+    margin: 4px 0;
+}
+#register-info input{
+    width: 380px;
+    height: 38px;
+    float: right;
+    outline: none;/*È¥³ý½¹µã*/
+    font-size: 20px;
+    text-indent: 10px;
+    border:1px solid #999;
+}
+#register-info button{
+    width: 444px;
+    height: 41px;
+    border: #ef8743;
+    background: #ef8743;
+    border-radius: 8px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#register-info button a{
+    color: white;
+}
+#register-description{
+    width: 550px;
+    height: 300px;
+    margin-left: 10px;
+}
+.float{
+    float: left;
+}
+#register-description h3{
+    color: #ef8743;
+    margin: 20px 0;
+    font-size: 20px;
+}
+#register-description p{
+    color: #999;
+    font-size: 16px;
+    margin-bottom: 30px;
+}

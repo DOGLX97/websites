@@ -1,0 +1,99 @@
+.slide-show{
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+.slide-show-photograph{
+    width: 100%;
+    height: 100%;
+}
+.slide-show-photograph img{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 250px;
+    height: 250px;
+    display: none;
+}
+.slide-show-photograph .selected{
+    display: block;
+}
+.slide-show-button-list{
+    position: absolute;
+    right: 260px;
+    top:38px;
+}
+.slide-show-button-list li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 20px;
+}
+.slide-show-button-list .selected{
+    background: url("../img/learn%20button.png") no-repeat;
+}
+.slide-show-arrows div{
+    width: 29px;
+    height: 50px;
+    float: left;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+}
+.slide-show-left.bottom{
+    left: 0px;
+    bottom: 5px;
+    margin-right: 5px;
+}
+.slide-show-right.bottom{
+    left: 25px;
+    bottom: 5px;
+}
+.slide-show-left.center{
+    left: 140px;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+.slide-show-right.center{
+    right: 140px;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+.learn-button{
+    width: 181px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

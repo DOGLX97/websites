@@ -1,0 +1,184 @@
+#header{
+    height: 300px;
+}
+#header #start{
+    background:#ff00ff;
+}
+#header .bg{
+    background: #3b3c3c;
+}
+#container{
+    height: 300px;
+}
+#details{
+    height: 600px;
+    margin-top: 70px;
+  
+}
+#details-left{
+    width: 484px;
+    height: 560px;
+    position: relative;
+    overflow: hidden;
+}
+ #details-left img{
+    width: 480px;
+    height: 400px;
+    display: block;
+    border: 2px solid #cccccc;
+     cursor: pointer;
+}
+#img{
+    width: 800px;
+    height: 129px;
+    margin-top: 10px;
+    position: relative;
+    left:0;
+}
+#details #img img{
+    width: 150px;
+    height: 125px;
+    display: inline;
+    margin-right: 3px;
+}
+#details #details-right{
+    width: 570px;
+    height: 620px;
+    margin-left: 60px;
+}
+#details .float{
+    float: left;
+}
+#details #details-right h2{
+    font-size: 20px;
+}
+#details #details-right h3{
+    font-size: 10px;
+    color: #525252;
+    margin-bottom: 30px;
+}
+#details #details-right h5{
+    font-size: 30px;
+    color: #ff00ff;
+    margin-bottom: 30px;
+}
+#details #details-right label{
+    width: 100px;
+    height: 40px;
+}
+#details #details-right input{
+    width: 60px;
+    height: 42px;
+    text-indent: 10px;
+    outline: none;
+    border-radius: 8px;
+}
+#details h6{
+    font-size: 10px;
+    margin: 20px 0;
+}
+#details #brand{
+    border-bottom: 1px solid #ff530d;
+    border-top: 1px solid #ff530d;
+    width: 570px;
+    height: 105px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+#brand a{
+    color: black;
+}
+#details #details-right p{
+    font-size: 13px;
+    color: #464646;
+}
+#correlation{
+    height: 450px;
+}
+#correlation h2{
+    background: #cccccc;
+    margin: 20px 0;
+}
+#correlation .related{
+    height: 320px;
+    float: left;
+    margin-right: 60px;
+}
+#correlation a{
+    display: block;
+    margin-left: 30px;
+}
+#correlation img{
+    width: 225px;
+    height: 225px;
+}
+.btn{
+    border: 1px solid #464646;
+    width: 110px;
+    height: 34px;
+    background: #464646;
+    color: white;
+    margin: 20px 50px;
+    cursor: pointer;
+}
+#left,#right{
+    width: 30px;
+    height: 30px;
+    background: #000;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    position: absolute;
+    top: 212px;
+}
+#left{
+    left: 10px;
+}
+#right{
+    right: 10px;
+}
+#details-left img.selected{
+    border: 2px solid #000000;
+}
+#small{
+    position: relative;
+}
+#drag{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #cccccc;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    display: none;
+}
+#mask{
+    width: 100%;
+    height: 100%;
+    background: #ff00ff;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#details{
+    position: relative;
+}
+#big{
+    position: absolute;
+    top: 0px;
+    left: 590px;
+    display: none;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+#big img{
+    position: absolute;
+    top: 0;
+    left: 590px;
+}

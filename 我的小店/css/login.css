@@ -1,0 +1,96 @@
+#header{
+    height: 300px;
+}
+#login-container{
+    margin-top: 50px;
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+#login-container h2{
+    font-size: xx-large;
+}
+#login-container form{
+    height: 470px;
+    width: 290px;
+    margin-top: 50px;
+}
+#login-container h5{
+    font-size: large;
+    color: #5d5959;
+}
+#login-container label{
+    margin-top: 20px;
+    display: block;/*label标签会产生作用*/
+}
+#login-container label input{
+    width: 400px;
+    height: 38px;
+    outline: none;
+    text-indent: 10px;/*使其不顶格开始输入数据*/
+    font-size: 20px;
+}
+#login-container input[value="login"]{
+    color: #ffffff;
+    width: 115px;
+    height: 42px;
+    background: #ef8743;
+    border: 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#login-container .btn{
+    border-radius: 8px;
+    cursor: pointer;
+}
+#login-container input.btn:hover{
+    background: #ffffff;
+    border: 1px solid #000000;
+    color: black;
+}
+#forget{
+    text-decoration: underline;
+    color: black;
+}#register{
+    height:500px;
+    float: left;
+    margin-top: 80px;
+    width: 500px;
+ }
+#register h2{
+    color: #ef8743;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+#register p{
+    font-size: 14px;
+}
+#register button{
+    background:#ffffff;
+    border: 1px solid white;
+    color: black;
+    font-size: 20px;
+    width: 115px;
+    height: 42px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+#register button a:hover{
+    background: #ef8743;
+    border: 0;
+    color: white;
+
+}
+#register a{
+    color: black;
+    display: block;
+    height: 100%;
+    width:100%;
+    border: 1px solid black;
+    border-radius: 8px;
+    line-height: 2em;
+}
+#footer{
+    width: 1400px;
+}

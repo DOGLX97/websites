@@ -1,0 +1,163 @@
+/*aboutus*/
+#aboutus{
+    height: 500px;
+    background: #F5F5F5;
+}
+#aboutus h1{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+#aboutus .info{
+    height: 370px;
+    float: left;
+}
+#aboutus #main{
+    width: 595px;
+    margin-left: 55px;
+    margin-right: 130px;
+}
+#aboutus #main h2{
+    margin: 15px 0;
+}
+#aboutus #right{
+    width: 234px;
+    margin-top: 40px;
+}
+#right div{
+    text-align: center;
+    margin-top: 20px;
+}
+/*aboutus*/
+
+/*promise*/
+#promise {
+    background: #6D9EEB;
+    height: 250px;
+}
+#promise #center{
+    width: 525px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ECDCF0;
+    padding-top: 20px;
+}
+#center div{
+    text-align: left;
+    padding: 10px 0;
+    color: #FFFFFF;
+    border-top: 1px solid #FFFFFF ;
+    margin-top: 10px;
+}
+/*promise*/
+
+/*contact*/
+#contact{
+    height: 500px;
+}
+#img img{
+    margin: 30px;
+}
+#title{
+    float: left;
+    background: url("../img/about-Article.jpg") no-repeat right;
+}
+ #title .float{
+     background: url("../img/about-Article.jpg") no-repeat;
+     float: left;
+     width: 143px;
+     padding: 0 30px;
+     text-align: center;
+ }
+ #right-info{
+     width: 400px;
+     height: 500px;
+     text-align: center;
+     margin-left: 70px;
+ }
+.move{
+    float: left;
+}
+#right-info h3{
+    margin: 80px 0 40px 0;
+}
+#right-info form{
+    height: 280px;
+    border: 2px dashed #F6B26B;
+    line-height: 28px;
+}
+#right-info .dif input{
+    width: 66px;
+    height: 20px;
+}
+#right-info button{
+    width: 60px;
+    height: 32px;
+    margin-top: 10px;
+}
+/*contact*/
+
+/*advantage*/
+#advantage{
+    height: 600px;
+    background: #93C47D;
+}
+#advantage .norms{
+    float: left;
+    width: 370px;
+    margin-top: 100px;
+    color: #F8FFFF;
+}
+#advantage h1{
+    margin: 30px 0;
+    width: 300px;
+    text-align: center;
+}
+#advantage h3{
+    height: 400px;
+    width: 320px;
+    text-align: center;
+    line-height: 400px;
+    font-weight: 600;
+    font-size: xx-large;
+}
+#advantage .details{
+    background: url("../img/index_in_9c75.png") no-repeat left;
+    width: 400px;
+    padding: 0 20px;
+}
+#advantage .details span{
+    display: block;
+    margin-bottom: 20px;
+    font-size: large;
+    font-weight: 600;
+}
+/*advantage*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

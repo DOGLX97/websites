@@ -1,0 +1,120 @@
+#header{
+    height: 300px;
+}
+#header #start{
+    background: #ff00ff;
+}
+.wrapper h2{
+    margin: 50px 0 30px 0;
+}
+.float{
+    float: left;
+    cursor: pointer;
+}
+#cart-left {
+    width: 810px;
+    height: 750px;
+    float: left;
+}
+#cart-left .info{
+    height: 250px;
+    margin-top: 80px;
+
+}
+#cart-left .info-img{
+    float: left;
+}
+#cart-left .info-img img{
+    width: 135px;
+    height: 135px;
+    display: inline-block;
+    border: 1px solid #F0F0F0;
+}
+#cart-left .info-info{
+    margin-left:30px;
+    float: left;
+}
+#cart-left .info-info h3{
+    margin: 15px 0;
+}
+#cart-left .price{
+    width: 600px;
+    height: 100px;
+    line-height:140px;
+    border-bottom: 1px solid #3b3c3c;
+}
+#cart-left .info-info .total{
+    font-size: 25px;
+    font-weight: 600;
+}
+.info-info label{
+    margin-left: 50px;
+}
+.info-info input{
+    width: 75px;
+    height: 35px;
+    border-radius: 6px;
+    text-indent: 10px;
+    outline: none;
+}
+#cart-left .info-info .time{
+    margin: 10px 0;
+}
+#cart-left .info-info .time span{
+    font-size: 8px;
+    color: #8c8c8c;
+}
+#cart-left .time .distance{
+    margin-left: 350px;
+}
+#cart-right{
+    width: 250px;
+    height: 500px;
+    margin-top:50px ;
+    border-left: 1px solid #000000;
+    float: left;
+}
+#cart-right .btn{
+    width: 182px;
+    height: 42px;
+    margin: 100px 0 50px 50px;
+    border: 1px solid #000000;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 8px;
+}
+#cart-right a{
+    display: block;
+    width: 180px;
+    height: 40px;
+    color: white;
+    font-size: 12px;
+}
+#cart-right .top-btn{
+    background: #ef8743;
+    border: #ef8743;
+}
+#cart-right .bot-btn{
+    background: #3b3c3c;
+}
+#cart-right .right-info{
+    width: 250px;
+    height: 106px;
+    margin-left: 10px;
+}
+#cart-right .span-pro{
+    margin: 15px 50px 15px 10px;
+    display: inline-block;
+}
+#cart-right .span-info{
+    border-bottom: 1px solid #000000;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+#cart-right span{
+    margin-right: 50px;
+}
+#cart-right .span-bot{
+    font-weight: 600;
+    font-size: 20px;
+}

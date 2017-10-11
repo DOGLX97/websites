@@ -1,0 +1,136 @@
+/*reset start*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+#login a:hover{
+    color: #ff00ff;
+}
+img{
+    border: 0;
+}
+li{
+    list-style: none;
+}
+/*reset end*/
+.wrapper{
+    height: 100%; /*高度充满整个父元素*/
+    margin: 0 auto; /*整个div大块居中，水平居中*/
+    width: 1140px;
+}
+#header{
+    background: url("../img/banner.jpg") no-repeat center center;
+    height: 600px;
+}
+#footer h2{
+    margin-top: 50px ;
+    float: left;
+}
+#footer h3{
+    margin-top: 80px;
+    float: right;
+}
+#footer{
+    background: #FF00CC;
+    height: 120px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrapper3{
+    width: 1150px;
+    color: white;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#nav>li>a {
+    color: white;
+    display: block;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+
+}
+#main-header a{
+    color: #ffffff;
+}
+h1{
+    color: #ffffff;
+}
+#cart{
+    background: #3b3c3c;
+    opacity: 0.5
+    filter: alpha(opacity=50);
+    width: 230px;
+    height: 35px;
+    color: magenta;
+    text-align: center;
+    line-height: 30px;
+    float: right;
+}
+#cart div a{
+    display: inline-block;
+    width: 180px;
+    height: 35px;
+    text-align: center;
+    line-height: 40px;
+}
+#cart p{
+    font-size: small;
+}
+#cart div img{
+    vertical-align: middle;
+}
+#main-header{
+    padding-top: 30px;
+    height: 50px;
+}
+#main-header .float {
+    float: left;
+    margin-right:300px ;
+}
+#nav{
+    height: 100px;
+}
+#nav #start{
+    background: #3b3c3c;
+}
+#nav>li {
+    width: 190px;
+    height: 40px;
+    text-align: center; /*文字水平居中*/
+    line-height: 30px; /*行高等于高使文字垂直居中*/
+    float: left;
+    margin-top: 40px;
+    background: #ff00ff;
+}
+#nav>li:hover{
+    background: #3b3c3c;
+}
+#submenu{
+    width: 1140px;
+    height: 230px;
+    background: #ffffff;
+    margin-left: -190px;
+    display: none;
+    position: relative;/*相对定位后使用z-index设置层次关系*/
+    z-index: 1;/*可有负值*/
+}
+#makeup:hover #submenu{
+    display: block;
+}
+#makeup #submenu .submenu-wrapper{
+    float: left;
+    margin-right: 80px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+#makeup #submenu .submenu-wrapper li a{
+    color: black;
+}
+
+

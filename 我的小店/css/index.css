@@ -1,0 +1,103 @@
+
+/*new-product start*/
+#new-product{
+    height: 266px;
+}
+#new-product .sale{
+    width: 360px;
+    height: 220px;
+    float: left;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+#new-product .sale h4{
+    position: relative;
+    left: 260px;
+    top: 190px;
+}
+.bg1{
+    background: url("../img/bg1.jpg");
+    margin-right: 20px;
+}
+.bg2{
+    background:url("../img/bg2.jpg") ;
+    margin-right: 20px;
+}
+.bg3{
+    background:url("../img/bg3.jpg") ;
+}
+/*neproduct end*/
+
+/*product start*/
+#product{
+    height: 1000px;
+}
+.thing{
+    width: 340px;
+    height: 420px;
+    float: left;
+    border: 1px solid #ccc;
+    margin: 15px 15px 15px 0px;
+}
+.thing img{
+    width: 248px;
+    height: 248px;
+    vertical-align: bottom;
+    border: 1px solid #3b3c3c;
+}
+.thing .product-wrapper{
+    background: #F0F0F0;
+    height: 170px;
+    opacity: .7;
+    filter: alpha(opacity=70);
+}
+.new{
+    float: right;
+    color: #fff;
+    background: #ff00ff;
+}
+.thing h4,input,button{
+    margin-top: 12px;
+}
+button{
+    background: orange;
+    border: 0px;
+    font-size: 20px;
+    color: white;
+}
+input {
+    border: 2px solid #cccccc;
+}
+/*product end*/
+
+/*problem start*/
+#problem{
+    height: 400px;
+    background: url("../img/banner2.jpg") no-repeat center;
+    overflow: hidden;
+}
+.wrapper2 {
+    width: 950px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: white;
+}
+#problem li{
+    list-style: disc;
+}
+#problem a{
+    width: 150px;
+}
+#problem ul{
+    float: left;
+    margin-left:40px ;
+    margin-top: 100px ;
+}
+ul li a:hover{
+   text-decoration:underline ;
+}
+/*problem end*/
+
+
+

@@ -1,0 +1,87 @@
+/*********css重置开始************/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+img{
+    border: 0px;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/*********css重置结束************/
+/************header开始***********/
+#header{
+    height: 52px;
+    background: #fba1a1;
+    width: 100%;
+    position: relative;
+}
+#header #logo{
+    position: absolute;
+    top: 9px;
+    left: 10%;
+}
+#header #home{
+    width: 100px;
+    height: 81px;
+    background: url("../img/home.png") no-repeat center center;
+    position: absolute;
+    left: 46%;
+    top: -3.5px;
+    /*z-index: 1;*/
+}
+#header #nav {
+    width: 462px;
+    position: absolute;
+    right: 10%;
+    top: 20px;
+}
+#header #nav a{
+    display: inline-block;
+    width: 64px;
+    margin-right: 10px;
+    float: left;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    line-height: inherit;
+    cursor: pointer;
+}
+#reset span{
+    color: #8b8b8b;
+}
+
+/************header结束***********/
+/******footer start*********/
+#footer{
+    height: 202px;
+    background: #4e4e4e;
+}
+#footer ul{
+    float: left;
+    /*border: 1px solid white;*/
+    padding: 20px;
+    margin-left: 36px;
+}
+#footer a,p{
+    color: white;
+    font-size: 6px;
+}
+#footer p{
+    padding: 30px;
+}
+/******footer end*********/

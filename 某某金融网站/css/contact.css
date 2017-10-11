@@ -1,0 +1,78 @@
+/*contactus*/
+#contact-us{
+    height: 760px;
+}
+#contact-us h2{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px 0;
+}
+#contact-us h2 a{
+    color: black;
+}
+#contact-us .right{
+    float: right;
+    height: 400px;
+    width: 500px;
+}
+#contact-us #location {
+    border: 1px dotted #666666;
+    width: 495px;
+    height: 135px;
+    background: #F5F5F5;
+    padding: 30px 0px 0px 20px;
+}
+#contact-us .right h3{
+    text-align: center;
+    margin: 30px 0;
+}
+#contact-us #box{
+    border: 1px dotted #666666;
+    height: 360px;
+    background: #F5F5F5;
+}
+#contact-us #box .form-size{
+    text-align: center;
+    height:220px;
+    line-height: 30px;
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 10px;
+    background: #F5F5F5;
+    float: left;
+}
+#contact-us .form-size label{
+    margin-top:10px;
+}
+#contact-us .form-size label input{
+    border: 1px dotted #666666;
+    outline: none;
+    width: 150px;
+    height: 20px;
+}
+#contact-us #code{
+    display: block;
+    margin: 20px 0;
+    font-size: 12px;
+}
+#contact-us #code input{
+    width: 100px;
+}
+#contact-us .form-size .sub{
+    width: 100px;
+    height: 25px;
+    background: #666666;
+    border: 1px solid #666666;
+}
+#contact-us .form-size .res{
+    width: 100px;
+    height: 25px;
+    background: #666666;
+    text-align: center;
+    border: 1px solid #666666;
+}
+#contact-us #box img{
+    float: right;
+    padding-top: 100px;
+}
